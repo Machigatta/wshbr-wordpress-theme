@@ -57,8 +57,6 @@
                 </div>
                 
             </div>
-            
-            <!-- <iframe style="border: 0; height: 200px; width: 600px;" src="https://analytics.blaumedia.com/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe> -->
         </footer>
     </body>
 </html>

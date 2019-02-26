@@ -26,40 +26,6 @@ if(have_posts()){
                 if($quellen[0] != ""){
                     echo "<div class='quellenAngaben'><p style='margin-right:5px'>Quellen: </p>". $quellen[0]. "</div>";
                 }
-
-            ?>
-            <!--Review-Seciton-->
-            <?php 
-                if(get_post_meta(get_the_ID(),'isReview')){
-
-                    ?>
-                    <br>
-                    <div style="border: 1px solid gray;position:relative;padding: 5px;">
-                        <img src="<?php echo $avatar; ?>" class="img-responsive img-thumbnail pull-left" style="width: 100px;margin-right: 5px;/* margin-left: 5px; *//* margin-top: 5px; */">
-                    <div class="rating pull-right" style="width:100px;height: 100px;border: 1px solid gray;background: #e2e2e2;/* margin-top: 5px; *//* margin-right: 5px; */font-size: 60px;text-align: center;/* line-height: 1.6; */margin-left: 5px;font-family: 'Lobster', cursive;"><?php echo get_post_meta(get_the_ID(),'reviewValue')[0]; ?><br><small style="
-                        font-size: 20px;
-                        margin-top: -20px;
-                        margin-left: -21px;
-                        position: absolute;
-                        color: #797979;
-                    ">von 10</small>
-                    </div><p style="
-                        /* margin-top: 5px; */
-                        font-weight: 600;
-                        font-size: 25px;
-                        font-family: 'Lobster', cursive;
-                    "><?php the_author(); ?></p><p class="align-justify" style="
-                        text-align: justify;
-                    ">
-                    <?php echo get_post_meta(get_the_ID(),'reviewShort')[0]; ?>
-                    </p>
-                    </div>
-                    <br>
-
-                  
-
-                    <?php
-                }
                 if($author != ""){
                     ?>
                     <div id="authorBox" style="">

@@ -72,66 +72,12 @@
     </div> -->
     <div id="highlight_master_wrapper">
         <?php
-        if(is_front_page() ){
-
-            ?>
-                <?php
-
-                $the_query = new WP_Query( array(
-                    'post_type' => 'post',
-                    'post_status' => 'publish',
-                    'posts_per_page' => '6',
-                    'meta_query' => array(
-                        array(
-                            'key' => 'isSlider',
-                            'value' => '1',
-                            'compare' => '='
-                        )
-                    ),
-                    'orderby' => 'id')
-                );
-
-                if ( $the_query->have_posts() ) {
-                    echo '<div class="highlight_master">';
-                    while ( $the_query->have_posts() ) {
-                        echo '<div class="highlight" style="height: 200px;overflow: hidden;position: relative;">';
-                        $the_query->the_post();
-                        
-                         $sliderMeta = get_post_meta(get_the_ID(),'sliderImage');
-                         $sliderCaption = get_post_meta(get_the_ID(),'sliderCaption')[0];
-                         if($sliderCaption == ""){
-                             $sliderCaption = get_the_title();
-                         }
-                        if(!empty($sliderMeta)){
-                            echo '<a href="'. esc_url( get_permalink()).'" target="_blank">'."<img id='image-preview' class='slider-preview' src='".wp_get_attachment_url( $sliderMeta[0] )."' 
-                            style='left: 50%;top: 50%;transform: translate(-50%, -50%);height: 100%;position: absolute;width: auto;'></a>";
-                            echo '<div class="caption">
-						            <div class="blur"></div>
-						                <div class="caption-text">
-							                <h5 style="border-top:2px solid #06b48f; padding:10px;" class="hwrap">'.$sliderCaption.'</h5>
-						                </div>
-					            </div>';
-                        }else{
-                            echo "no preview";
-                        }
-
-
-                        echo '</div>';
-                    }
-                    echo '</div>';
-                    /* Restore original Post Data */
-                    wp_reset_postdata();
-                    echo '</div>';
-                } else {
-                    // no posts found
-                }
-                ?>      
-            
-           <?php
-                }else{
-                    echo '<div style="width:100%;height:5px;background:#06b48f;"></div>';
-                }
-            ?>
+            if(is_front_page() ){
+                if (function_exists('wfs_show')) { wfs_show(); }
+            }else{
+                echo '<div style="width:100%;height:5px;background:#06b48f;"></div>';
+            }
+        ?>
             <div class="container">
         <div class="row">
         <?php if ( !( is_page('1854') ) && !( is_page('1861') ) && !( is_page('1867') ) && !( is_page('1865') ) ) { 
