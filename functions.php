@@ -28,6 +28,20 @@ function wshbr_theme_setup(){
 
 add_action('init', 'wshbr_theme_setup');
 
+function arphabet_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Sidebar',
+		'id'            => 'wshbr_sidebar',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'arphabet_widgets_init' );
+
 
 class CSS_Menu_Walker extends Walker {
 
