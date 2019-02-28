@@ -48,7 +48,7 @@
     <body <?php body_class(); ?>>
         <div class="mainbg"></div>
         <div id="wrapper" style="text-align: center;">
-            <div class="header-advertisement">
+            <div class="head_socials">
                 <figure><i class="fab fa-facebook"></i><a href="https://www.facebook.com/wshbrde"></a></figure>
                 <figure><i class="fab fa-twitter"></i><a href="https://www.twitter.com/wshbrde"></a></figure>
                 <figure><i class="fab fa-instagram"></i><a href="https://www.instagram.com/wshbrde/"></a></figure>
@@ -56,7 +56,7 @@
             <a href="/">
                 <!-- <div class="logo">
                 </div> -->
-                <img src="https://wshbr.de/wp-content/themes/wshbr_osaki/images/_logo.png" alt="" style="margin-top: 15px;margin-bottom: 5px;">
+                <img src="https://wshbr.de/wp-content/themes/wshbr-wordpress-theme/img/_logo.png" alt="" style="margin-top: 15px;margin-bottom: 5px;">
             </a>
             
         </div>
