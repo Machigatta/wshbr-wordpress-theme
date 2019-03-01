@@ -1397,3 +1397,8 @@ ol.comment-list {
 .comment-content {
     padding: 10px;
 }
+
+
+.wp-block-embed-youtube {
+    text-align: center;
+}
