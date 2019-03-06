@@ -189,6 +189,7 @@ video {
     font-size: 85%;
     color: #b1b1b1;
     height: 20px;
+    margin-top: -10px;
 }
 
 .post-info div {
@@ -1401,4 +1402,9 @@ ol.comment-list {
 
 .wp-block-embed-youtube {
     text-align: center;
+}
+
+.post-info-top {
+    margin-bottom: -20px;
+    margin-top: 10px;
 }

@@ -11,9 +11,9 @@ if (function_exists('tmdb_sidebar')) { tmdb_sidebar(); }
 if(class_exists("wsreview")){
     $wsr = new wsreview();
     if(is_front_page() ){
-        $wsr->renderPluginAsWidget(2);
-    }else {
         $wsr->renderPluginAsWidget(3);
+    }else {
+        $wsr->renderPluginAsWidget(2);
     }
 }
 

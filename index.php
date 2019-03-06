@@ -7,16 +7,12 @@
 if(have_posts()){
     while(have_posts()){ the_post(); ?>
     <div class="blog-entry">
-        <a class="head_link" href="<?php echo esc_url( get_permalink());?>"><h3><?php the_title();
-            // $sliderMeta = get_post_meta(get_the_ID(),'isSlider');
-            // if(!empty($sliderMeta) && $sliderMeta[0] == "1"){
-            //         echo "  <i class=\"fa fa-bookmark\" style=\"color:red;float:right;\"></i>";
-            // }
-            ?></h3></a>
+        <div class="post-info post-info-top">
+            Von <b><?php the_author(); ?></b> - Veröffentlicht am <b><?php the_time("d.m.Y, H:i");?></b>
+        </div>
+        <a class="head_link" href="<?php echo esc_url( get_permalink());?>"><h3><?php the_title();?></h3></a>
         <div class="post-info">
-            <div class="pub-date"><i class="fa fa-calendar" aria-hidden="true"></i> <?php the_time("j.m.Y");?> | </div>
-            <div><i class="fa fa-user" aria-hidden="true"></i> <?php the_author(); ?> | </div>
-            <div class="blog-tags"><i class="fa fa-tags" aria-hidden="true"></i> <?php the_tags( '<ul class="post-categories"><li>', '</li><li>', '</li></ul>' ); ?></div>
+            <div class="blog-tags"><?php the_tags( '<ul class="post-categories"><li>', '</li><li>', '</li></ul>' ); ?></div>
         </div>
         
         <div class="blog-content blog-content-short">
