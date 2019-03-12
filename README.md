@@ -10,3 +10,4 @@ Used Plugins:
 - https://github.com/Machigatta/wshbr-wordpress-share-to-discord
 - https://github.com/Machigatta/wshbr-wordpress-react
 - https://github.com/Machigatta/wshbr-wordpress-review
+- https://github.com/Machigatta/wshbr-wordpress-spoiler
