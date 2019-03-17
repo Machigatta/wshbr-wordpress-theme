@@ -43,16 +43,6 @@ if(have_posts()){
                 }
 
             ?>
-
-              <script>
-                        var postData = {
-                            title: "<?php echo addslashes(get_the_title());?>",
-                            url: "<?php echo esc_url( get_permalink());?>",
-                            short: "<?php echo addslashes(get_the_excerpt());?>",
-                            thumbnailurl: "<?php echo get_the_post_thumbnail_url();?>"
-
-                        }
-                    </script>
         </div>
     </div>
     <?php }
