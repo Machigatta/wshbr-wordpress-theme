@@ -12,8 +12,10 @@ if(class_exists("wsreview")){
     $wsr = new wsreview();
     if(is_front_page() ){
         $wsr->renderPluginAsWidget(3);
-    }else {
-        $wsr->renderPluginAsWidget(2);
+    }else if(is_single()) {
+        if(!is_tmdb_ready()){
+            $wsr->renderPluginAsWidget(2);
+        }
     }
 }
 
