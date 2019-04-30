@@ -37,18 +37,15 @@
     </div>
     <body <?php body_class(); ?>>
         <div class="mainbg"></div>
-        <div id="wrapper" style="text-align: center;">
+        <div id="banner-wrapper"></div>
+        <!-- <div id="wrapper" style="text-align: center;">
             <div class="head_socials">
                 <figure><i class="fab fa-twitter"></i><a href="https://www.twitter.com/wshbr13"></a></figure>
                 <figure><i class="fab fa-instagram"></i><a href="https://www.instagram.com/jspr13/"></a></figure>
             </div>
-            <a href="/">
-                <!-- <div class="logo">
-                </div> -->
-                <img src="https://wshbr.de/wp-content/themes/wshbr-wordpress-theme/img/_logo.png" alt="" style="margin-top: 15px;margin-bottom: 5px;">
-            </a>
             
-        </div>
+            
+        </div> -->
     <div>        
     <?php 
         //wp_nav_menu(array('theme_location'=>'primary', 'container_id' => 'cssmenu', 'walker' => new CSS_Menu_Walker())); 
@@ -62,9 +59,7 @@
     <div id="highlight_master_wrapper">
         <?php
             if(is_front_page() ){
-                if (function_exists('wfs_show')) { wfs_show(); } else { echo '<div class="hr"></div>'; }
-            }else{
-                echo '<div class="hr"></div>';
+                if (function_exists('wfs_show')) { wfs_show(); }
             }
         ?>
             <div class="container">

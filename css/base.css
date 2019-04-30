@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Anton);
-
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -26,17 +24,8 @@ body > #wrapper {
 }
 
 .container {
-    /* background: #f7f7f7; */
     width: unset;
     padding: 15px;
-    padding-top: 0px;
-    /* border-left: 4px solid #ccc; */
-    /* border-right: 4px solid #ccc; */
-    /* border-top:unset; */
-    /* border-bottom:unset; */
-    /*-webkit-box-shadow: 0px 0px 174px -94px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 0px 0px 174px -94px rgba(0, 0, 0, 1);
-    box-shadow: 0px 0px 174px -94px rgba(0, 0, 0, 1);*/
 }
 
 div > .twitter-video {
@@ -125,7 +114,7 @@ video {
 }
 
 .head_socials > figure img {
-    border: 3px solid #06b48f;
+    border: 3px solid #D4AF37;
     margin-top: -3px;
     height: 150px;
     margin-right: 15px;
@@ -178,7 +167,7 @@ video {
   -webkit-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
   transition: all 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  background: #06b48f;
+  background: #D4AF37;
 }
 
 .blog-content {
@@ -230,7 +219,7 @@ video {
 }
 
 .sidebar-head {
-    font-family: 'Anton', cursive;
+    font-family: initial;
     padding-left: 5px;
     color: rgb(48, 48, 48);
     /* background: #f7f7f7; */
@@ -317,7 +306,7 @@ span.sidebar-head {
     z-index:1;
     bottom:0;
     left:0;
-    border-top: 1px solid #06b48f;
+    border-top: 1px solid #D4AF37;
     padding:4px 10px;
     text-align:center;
     
@@ -389,7 +378,7 @@ textarea {
 }
 
 hr {
-    border-top: 1px solid #06b48f;
+    border-top: 1px solid #D4AF37;
     box-shadow: 1px 1px 1px #eee;
 }
 
@@ -397,14 +386,14 @@ footer {
     /*background: rgb(238, 238, 238) none repeat scroll 0% 0%;*/
     background: transparent;
     padding: 15px;
-    border-top: 5px solid rgb(6, 180, 143);
+    border-top: 5px solid #D4AF37;
 }
 
 #searchsubmit {
     border: medium none;
     height: 23px;
     width: 21px;
-    color: #06b48f;
+    color: #D4AF37;
     background-color: white;
 }
 
@@ -419,11 +408,11 @@ blockquote {
 #pagination {
     position: relative;
     text-align: center;
-    font-family: 'Anton', cursive;
+    font-family: initial;
 }
 
 #pagination>span.current {
-    background-color: rgb(6, 180, 143);
+    background-color: #D4AF37;
     color: #ECF0F1;
 }
 
@@ -443,7 +432,7 @@ blockquote {
 #pagination>span.page-prev,
 #pagination>a.page-next,
 #pagination>span.page-next {
-    background-color: rgb(6, 180, 143);
+    background-color: #D4AF37;
     color: #FFF;
 }
 
@@ -810,9 +799,6 @@ width: 100%;
 	list-style:none;
 	text-align:center;
 	text-transform:uppercase;
-    font-size:32px;	
-    /* font-size:21px;	 */
-	
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -828,7 +814,7 @@ width: 100%;
 
 /*NAV*/
 .menu-mob,.menu-logo-sm{display:none !important;}
-#nav-wrap{background:#fff;line-height:64px;background-color: #2d2c2c;border-bottom: 5px solid #06b48f;}
+#nav-wrap{background:#fff;line-height:64px;background-color: #2d2c2c;border-bottom: 5px solid #D4AF37;}
 
 .nav-wrap.active, .nav-wrap.active li{	height:50px;	line-height:50px;}
 .nav-wrap.active ul li#search-btn{	line-height:50px !important;}
@@ -854,7 +840,7 @@ width: 100%;
 #nav-wrap ul li:hover, 
 #nav-wrap ul li.active {
 	color:#FFF;
-	background: #06b48f36;
+	background: #D4AF3736;
 }
 
 /*sub*/
@@ -870,8 +856,8 @@ width: 100%;
 
 .nav-wrap ul li a{
     color: #e4e4e4;
-    font-family: 'Anton';
-    font-size: 27px;
+    font-family: initial;
+    font-size: 18px;
     text-decoration: none;
     padding: 20px;
 }
@@ -898,18 +884,18 @@ div#submenu {
 }
 
 #submenu > a {
-    font-family: 'Anton';
+    font-family: initial;
     font-size: 34px;
     cursor: pointer;
     padding: 25px;
     padding-top: 0;
     padding-bottom: 0;
     margin: 25px;
-    border-top: 5px solid #06b48f;
+    border-top: 5px solid #D4AF37;
 }
 
 #submenu > a:hover {
-    color: #06b48f;
+    color: #D4AF37;
 }
 
 #submenu > a {
@@ -1080,13 +1066,13 @@ div#submenu {
 
 h1.indexed {
     text-align: center;
-    font-family: 'Anton';
+    font-family: initial;
     font-size: 50px;
 }
 
 h2.indexed {
     text-align: center;
-    font-family: 'Anton';
+    font-family: initial;
 }
 
 #index_list > div > div:first-child:before {
@@ -1103,7 +1089,7 @@ h2.indexed {
     text-shadow: 1px 1px 1px #939494;
     content: '\f03d  Zum Trailer';
     cursor: pointer;
-    border: 1px solid #06b48f;
+    border: 1px solid #D4AF37;
     font-weight: 900;
     text-transform: uppercase;
     font-family: 'Font Awesome\ 5 Free', 'Arial';
@@ -1359,7 +1345,7 @@ h2.indexed {
 
 .loader > div {
     border: 10px solid #bbbaba; /* Light grey */
-    border-top: 10px solid #06b48f; /* Blue */
+    border-top: 10px solid #D4AF37; /* Blue */
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -1422,7 +1408,7 @@ body, button, input, select, textarea {
 
 .btn-wshbr {
     color: #1a1a1a;
-    border-color: #06b48f;
+    border-color: #D4AF37;
     padding: 5px 10px;
     font-size: 12px;
     line-height: 1.5;
@@ -1437,7 +1423,7 @@ body, button, input, select, textarea {
 div.hr {
     width: 100%;
     height: 5px;
-    background: #06b48f;
+    background: #D4AF37;
 }
 
 #highlight_master_wrapper {
@@ -1455,4 +1441,35 @@ div#sidebar h2, div#sidebar .sidebar-head {
 
 div#sidebar h2::before, div#sidebar .sidebar-head::before {
     content: '» ';
+}
+
+@media (max-width: 992px){
+    .nav-wrap ul li a {
+        font-size: 14px;
+        padding: 9px;
+    }
+}
+
+body > #banner-wrapper {
+    margin-top: 70px;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid #D4AF37;
+}
+
+@media screen and (max-width: 768px){
+    body > #banner-wrapper {
+        margin-top: 50px;
+    }
+}
+
+#banner-wrapper::before {
+    width: 100%;
+    background: url(https://wshbr.de/wp-content/uploads/2019/04/banner.png);
+    height: 278px;
+    content: 'x';
+    display: block;
+    background-position: center;
+    background-size: cover;
 }

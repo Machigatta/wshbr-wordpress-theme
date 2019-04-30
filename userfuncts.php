@@ -11,7 +11,7 @@ define('CONCATENATE_SCRIPTS', false);
                 );
 
                 if ( $the_query->have_posts() ) {
-                    echo '<div style="width:100%;height:2px;background:#06b48f;"></div>';
+                    echo '<div style="width:100%;height:2px;background:#D4AF37;"></div>';
                     while ( $the_query->have_posts() ) {
                         
                         
@@ -33,7 +33,7 @@ define('CONCATENATE_SCRIPTS', false);
                     }
                     /* Restore original Post Data */
                     wp_reset_postdata();
-                    echo '<div style="width:100%;height:2px;background:#06b48f;"></div>';
+                    echo '<div style="width:100%;height:2px;background:#D4AF37;"></div>';
                 } else {
                     // no posts found
                 }

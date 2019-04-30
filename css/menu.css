@@ -81,7 +81,7 @@
 
 #cssmenu {
     background: #333333;
-    border-bottom: 4px solid #06b48f;
+    border-bottom: 4px solid #D4AF37;
     font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
     font-size: 12px;
 }
@@ -102,13 +102,13 @@
 }
 
 #cssmenu ul ul {
-    border-top: 4px solid #06b48f;
+    border-top: 4px solid #D4AF37;
     text-transform: none;
     min-width: 190px;
 }
 
 #cssmenu ul ul a {
-    background: #06b48f;
+    background: #D4AF37;
     color: #ffffff;
     border: 1px solid #019877;
     border-top: 0 none;
@@ -141,9 +141,9 @@
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    -moz-box-shadow: 0 1px 0 #06b48f;
-    -webkit-box-shadow: 0 1px 0 #06b48f;
-    box-shadow: 0 1px 0 #06b48f;
+    -moz-box-shadow: 0 1px 0 #D4AF37;
+    -webkit-box-shadow: 0 1px 0 #D4AF37;
+    box-shadow: 0 1px 0 #D4AF37;
 }
 
 #cssmenu ul ul li:last-child:hover>a {
@@ -165,7 +165,7 @@
 
 #cssmenu ul li:hover>a,
 #cssmenu ul li.active>a {
-    background: #06b48f;
+    background: #D4AF37;
     color: #ffffff;
 }
 
