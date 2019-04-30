@@ -1,5 +1,5 @@
 ﻿            </div>
-            <?php if ( !( is_page('1854') ) && !( is_page('1861') ) && !( is_page('1867') ) && !( is_page('1865') ) ) { ?>
+            <?php if ( !is_single() ) { ?>
             <div id="sidebar" class="col-md-3 col-lg-3">
                 <?php get_sidebar(); ?>
             </div>
@@ -51,9 +51,8 @@
                 </div>
                 <div class="col-lg-5 col-md-5 col-xs-12">
                     <h3 class="footer-header">Nichts mehr verpassen:</h3>
-                        <a href="https://www.twitter.com/wshbrde" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x"></i></span>Twitter</a>
-                        <a href="https://www.facebook.com/wshbrde/" id="gh" target="_blank" title="Facebook"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-facebook fa-stack-1x"></i></span>Facebook</a>
-                        <a href="https://www.instagram.com/wshbrde/"  target="_blank" title="Instagram"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-instagram fa-stack-1x"></i></span>Instagram</a>
+                        <a href="https://www.twitter.com/wshbr13" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x"></i></span>Twitter</a>
+                        <a href="https://www.instagram.com/jspr13/"  target="_blank" title="Instagram"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-instagram fa-stack-1x"></i></span>Instagram</a>
                 </div>
                 
             </div>

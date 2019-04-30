@@ -157,7 +157,6 @@ function pagination($range = 3, $show_one_pager = true, $show_page_hint = false)
         return $output;
     }else{
 		$output = '<div id="pagination">';
-		$output .= "<i class='fa'><img class='img-responsive' src='https://wshbr.de/wp-content/uploads/2017/01/main-icon.png' style='height:14px'></i><i> Mehr konnten wir leider nicht finden. </i><i class='fa'><img class='img-responsive' src='https://wshbr.de/wp-content/uploads/2017/01/main-icon.png' style='height:14px'></i>";
 		$output .= '</div>';
 
 		return $output;

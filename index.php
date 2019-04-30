@@ -37,7 +37,6 @@ if(have_posts()){
         
         <p><?php the_excerpt();?><a class="btn btn-blog btn-readmore" href="<?php echo esc_url( get_permalink());?>">Weiterlesen...</a></p>
         </div>
-        <hr>        
     </div>
         
     <?php } 

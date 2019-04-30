@@ -1,5 +1,5 @@
 <div>
-    <span class="sidebar-head">» Suche</span>
+    <span class="sidebar-head">Suche</span>
     <div class="sidebar-block">
         <?php get_search_form( true ); ?>
     </div>
