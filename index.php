@@ -22,10 +22,7 @@ if(have_posts()){
                 if(has_post_thumbnail()){
                     ?>
                      <a href="<?php echo esc_url( get_permalink());?>">
-                        <div class="blog-thumbnail ">
-                            <?php
-                            the_post_thumbnail("",array( "class" => "img-responsive"));
-                            ?>
+                        <div class="blog-thumbnail" style="background-image: url(<?php echo  wp_get_attachment_image_src( get_post_thumbnail_id(), 'single-post-thumbnail' )[0]; ?>);">
                         </div>
                     </a>
                     <?php
