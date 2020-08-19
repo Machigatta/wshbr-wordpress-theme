@@ -256,9 +256,15 @@ span.sidebar-head {
 }
 
 .btn-blog {
-    background-color: #323232;
-    border-color: #4c4c4c;
-    color: white !important;
+    background-color: #3c3c3c !important;
+    color: white;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+    color: #d4af37;
+    text-decoration: none;
 }
 
 .btn-readmore {
@@ -466,8 +472,8 @@ blockquote {
 }
 
 .footer-header {
-	font-family: initial;
-	text-decoration: underline;
+    font-weight: bold;
+    font-family: inherit;
 }
 
 .wp-caption {
@@ -647,6 +653,16 @@ width: 100%;
 
 .staff_pictures_single > div {
     padding: 2px !important;
+}
+
+footer a {
+    font-weight: bold;
+    color: #a95959;
+}
+
+footer a:hover, footer a:focus {
+    color: #2d0b0b;
+    text-decoration: none;
 }
 
 /* TOOLTIPS */
@@ -1420,8 +1436,9 @@ body, button, input, select, textarea {
 }
 
 .head_link > h1, .head_link > h2, .head_link > h3, .head_link > h4 {
-    font-family: initial;
+    font-family: inherit;
     text-shadow: 1px 1px #c3c3c3;
+    font-weight: bold;
 }
 
 div.hr {

@@ -47,12 +47,15 @@
                     <p>
                         <a href="https://wshbr.de/impressum"><i class="fa fa-link"></i> Impressum</a>
                         <a href="https://wshbr.de/datenschutzerklaerung"><i class="fa fa-link"></i> Datenschutz</a></p>
-                    <small>©Copyright 2018 - Armin Seidling</small>
+                    <small>©Copyright 2020 - Armin Seidling</small>
                 </div>
                 <div class="col-lg-5 col-md-5 col-xs-12">
-                    <h3 class="footer-header">Nichts mehr verpassen:</h3>
-                        <a href="https://www.twitter.com/wshbr13" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x"></i></span>Twitter</a>
-                        <a href="https://www.instagram.com/jspr13/"  target="_blank" title="Instagram"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-instagram fa-stack-1x"></i></span>Instagram</a>
+                    <h3 class="footer-header">Social Media (Blog):</h3>
+                    <a href="https://twitter.com/wshbrde" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x"></i></span>Twitter</a>
+                    <a href="https://www.facebook.com/wshbrde"  target="_blank" title="Blog"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-facebook fa-stack-1x"></i></span>Blog</a>
+                    <h3 class="footer-header">Social Media (Privat):</h3>
+                    <a href="ttps://twitter.com/wshbr13" id="gh" target="_blank" title="Twitter"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x"></i></span>Twitter</a>
+                    <a href="https://www.instagram.com/jspr13/"  target="_blank" title="Instagram"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fab fa-instagram fa-stack-1x"></i></span>Instagram</a>
                 </div>
                 
             </div>

@@ -2,26 +2,11 @@
 <html>
     <head>
         <meta name="" charset="utf8" content="">
-        <title><?php if(is_front_page()){ echo "wshbr.de - Serien- und Filmeindex"; } else { wp_title(); } ?></title>
+        <title><?php if(is_front_page()){ wp_title("&raquo;"); } else { wp_title(); } ?></title>
         <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.png" type="image/png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.png" type="image/png" />
         <?php wp_head(); ?>
-        <!-- Matomo -->
-        <script type="text/javascript">
-        var _paq = _paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="//analytics.blaumedia.com/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', '2']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-        })();
-        </script>
-        <!-- End Matomo Code -->
     </head>
    
         
